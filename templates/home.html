@@ -16,20 +16,21 @@
   <a class="active" href="#home">Home</a>
   <a href="#news">News</a>
   <a href="#contact">Contact</a>
-  <a href="#about">About</a>
+  <a href="#about">Trending</a>
+  <a href="#">Classics</a>
 </div>
 
 <div class="content">
   <h2>Movies</h2>
   <div class="row">
       {% for movie in movies %}
-      <div class="col">
+      <div class="col" style="width: 18rem;">
           <div class="card">
               <div class="card-body">
                   <img class="card-img-top" src= movie['image'] alt="movie">
-                  <h6 class="card-title"> {{ movie['name'] }} </h6>
                   <hr>
-                  <p class="card-text"> {{ movie['director'] }} </p>
+                  <h6 class="card-title"> {{ movie['name'] }} </h6>
+                  
               </div>
           </div>
       </div>
