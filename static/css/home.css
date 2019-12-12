@@ -21,18 +21,18 @@ body {
   }
    
   .sidebar a.active {
-    background-color: #4CAF50;
+    background-color: rgb(179, 76, 7);
     color: white;
   }
   
   .sidebar a:hover:not(.active) {
-    background-color: #555;
+    background-color: rgb(219, 187, 7);
     color: white;
   }
   
   div.content {
     margin-left: 200px;
-    padding: 1px 16px;
+    padding: 40px 50px;
     height: 1000px;
   }
   hr {
